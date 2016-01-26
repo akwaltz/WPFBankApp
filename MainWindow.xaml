@@ -1,0 +1,14 @@
+﻿<Window x:Class="BankAppB.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="244.772" Width="351.427">
+    <Grid>
+        <Button x:Name="btnTransaction" Content="Complete Transaction" HorizontalAlignment="Left" Margin="68,156,0,0" VerticalAlignment="Top" Width="210" Height="29"/>
+        <RadioButton x:Name="radDeposit" Content="Deposit" HorizontalAlignment="Left" Margin="206,72,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="radWithdraw" Content="Withdraw" HorizontalAlignment="Left" Margin="68,72,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtBoxAmount" HorizontalAlignment="Left" Height="23" Margin="158,110,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="38,32,0,0" TextWrapping="Wrap" Text="What type of transaction do you want to perform?" VerticalAlignment="Top" Height="19" Width="295"/>
+        <TextBlock x:Name="txtBlockInfo" HorizontalAlignment="Left" Margin="68,110,0,0" TextWrapping="Wrap" Text="Enter Amount:" VerticalAlignment="Top" Height="23" Width="85"/>
+
+    </Grid>
+</Window>
